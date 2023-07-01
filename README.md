@@ -3,7 +3,7 @@
 ### Denoising Diffusion Probalistic Models
 ![Forward Noise](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/main/figures/Forward_noise.png)
 
-![Backward Noise](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/master/figures/backward_noise.png)
+![Backward Noise](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/main/figures/backward_noise.png)
 
 Experiments run on 3.3Ghz AMD EPYC 7002 series. Requires Python 3.8, and these dependencies for CPU instances, please install 'requirements.txt'
 
@@ -25,7 +25,7 @@ python3 main.py
 
 ## Model
 
-Linear and UNet Model are written in model.py file, which can be modified as per the requirement
+Linear and UNet Models are written in a model.py file, which can be modified as per the requirement
 
 UNet model Architecture
 ![UNet Architecture](https://github.tik.uni-stuttgart.de/FlorianLux/SpeakerEmbeddingGenerationDenoisingDiffusion/blob/master/figures/Unet.drawio.png)
@@ -42,8 +42,8 @@ Male Voice:
 https://media.github.tik.uni-stuttgart.de/user/5258/files/98ad29e5-c7ce-4e9d-a2c8-7badc3c942d5
 
 ## Output
-Red points represents original data points in the distribution and blue ones are generated datapoints. 
-T-Sne plot of Generated and Original datapoints. 
+Red points represent the original data points in the distribution and blue ones are generated data points. 
+The t-Sne plot of Generated and Original data points. 
 
 ![Plot](https://github.tik.uni-stuttgart.de/FlorianLux/SpeakerEmbeddingGenerationDenoisingDiffusion/blob/master/figures/TSNE-Based%202D%20Plot%20of%2064%20dimensional%20Embeddings.png)
 
