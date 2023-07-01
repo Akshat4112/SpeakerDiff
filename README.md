@@ -28,7 +28,7 @@ python3 main.py
 Linear and UNet Models are written in a model.py file, which can be modified as per the requirement
 
 UNet model Architecture
-![UNet Architecture](https://github.tik.uni-stuttgart.de/FlorianLux/SpeakerEmbeddingGenerationDenoisingDiffusion/blob/master/figures/Unet.drawio.png)
+![UNet Architecture](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/main/figures/Unet.drawio.png)
 ## Output Audio Samples
 These audio samples are generated after passing the generated embeddings to a TTS Engine. 
 
@@ -45,7 +45,7 @@ https://media.github.tik.uni-stuttgart.de/user/5258/files/98ad29e5-c7ce-4e9d-a2c
 Red points represent the original data points in the distribution and blue ones are generated data points. 
 The t-Sne plot of Generated and Original data points. 
 
-![Plot](https://github.tik.uni-stuttgart.de/FlorianLux/SpeakerEmbeddingGenerationDenoisingDiffusion/blob/master/figures/TSNE-Based%202D%20Plot%20of%2064%20dimensional%20Embeddings.png)
+![Plot](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/main/figures/TSNE-Based%202D%20Plot%20of%2064%20dimensional%20Embeddings.png)
 
 ## References
 
