@@ -1,7 +1,7 @@
 ## Speaker Embedding Generation using Denoising Diffusion Probabilistic Models
 
 ### Denoising Diffusion Probalistic Models
-![Forward Noise](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/master/figures/Forward_noise.png)
+![Forward Noise](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/main/figures/Forward_noise.png)
 
 ![Backward Noise](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/master/figures/backward_noise.png)
 
