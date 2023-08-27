@@ -35,11 +35,11 @@ These audio samples are generated after passing the generated embeddings to a TT
 
 Female Voice:  
 
-https://media.github.tik.uni-stuttgart.de/user/5258/files/afb624ab-1620-49a0-8119-2d4fa8310c27
+
 
 Male Voice: 
 
-https://media.github.tik.uni-stuttgart.de/user/5258/files/98ad29e5-c7ce-4e9d-a2c8-7badc3c942d5
+
 
 ## Output
 Red points represent the original data points in the distribution and blue ones are generated data points. 
