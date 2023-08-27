@@ -48,6 +48,8 @@ Red points represent the original data points in the distribution and blue ones 
 
 ## References
 [1] [Denoising Diffusion Probalistic Models](https://arxiv.org/pdf/2006.11239.pdf)
+[2] [Denoising Diffusion Implicit Models](https://arxiv.org/pdf/2010.02502.pdf)
+[3] [Diffusion Model Beats GANs on Image Synthesis](https://arxiv.org/pdf/2010.02502.pdf)
 
 
 
