@@ -2,18 +2,7 @@
 SpeakerDiff is a novel versatile probabilistic model that generates high-quality speech samples for Libre Speech-based speaker embeddings. We have demonstrated the effectiveness of the denoising diffusion probabilistic method in preserving the feature information in the speech while effectively anonymizing identifying information. 
 
 ### Denoising Diffusion Probabilistic Models
-DDPMs define a forward diffusion process that gradually adds Gaussian noise to data x0 over T steps to get xT. This forward process can be sampled efficiently and destroys a structure, converging to a Gaussian distribution.
-
-q(xt|xt−1) = N (xt; √1 − βtxt−1, βtI) 
-
-q(xt|x0) = N (xt; √ ̄αtx0, (1 −  ̄αt)I) 
-
-The reverse process is a Markov chain that learns to produce xt − 1 from xt, starting from noise xT. The reverse process is parameterized as a neural network predicting the mean and variance of the Gaussian conditionals p(xt−1|xt).
-
-pθ(xt−1|xt) = N (xt−1; μθ(xt, t), Σθ(xt, t)) 
-
-Training maximizes a variational lower bound on log-likelihood, linking the forward and reverse processes.
-
+Denoising diffusion probabilistic models (DDPM), a promising class of generative models that gradually uses a Markov chain to convert isotropic Gaussian distribution into complex data distribution. The diffusion models serve to balance the trade-off between flexibility and traceability. We remodel the diffusion model proposed by Jonathan Ho et al. by modifying the variance scheduler and employing the entire mechanism on speaker embedding. Diffusion models operate on a noise-adding schedule without learning from the parameters to obtain salient features.
 
 ![Forward Noise](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/main/figures/Forward_noise.png)
 
