@@ -1,5 +1,5 @@
 ## SpeakerDiff: Speaker Embedding Generation using Denoising Diffusion Probabilistic Models
-SpeakerDiff is a novel versatile probabilistic model that generates high-quality speech samples for the Libre Speech dataset. We have demonstrated the effectiveness of the denoising diffusion probabilistic method in preserving the feature information in the speech while effectively anonymizing identifying information. 
+SpeakerDiff is a novel versatile probabilistic model that generates high-quality speech samples for the Libre Speech based speaker embeddings. We have demonstrated the effectiveness of the denoising diffusion probabilistic method in preserving the feature information in the speech while effectively anonymizing identifying information. 
 
 ![Forward Noise](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/main/figures/Forward_noise.png)
 
