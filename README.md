@@ -4,8 +4,10 @@ SpeakerDiff is a novel versatile probabilistic model that generates high-quality
 ### Denoising Diffusion Probabilistic Models
 Denoising diffusion probabilistic models (DDPM), a promising class of generative models that gradually uses a Markov chain to convert isotropic Gaussian distribution into complex data distribution. The diffusion models serve to balance the trade-off between flexibility and traceability. We remodel the diffusion model proposed by Jonathan Ho et al. by modifying the variance scheduler and employing the entire mechanism on speaker embedding. Diffusion models operate on a noise-adding schedule without learning from the parameters to obtain salient features.
 
+### Forward Process
 ![Forward Noise](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/main/figures/Forward_noise.png)
 
+### Backward Process
 ![Backward Noise](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/main/figures/backward_noise.png)
 
 Experiments run on 3.3Ghz AMD EPYC 7002 series. Requires Python 3.8, and these dependencies for CPU instances, Please install 'requirements.txt'
