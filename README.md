@@ -47,9 +47,9 @@ Red points represent the original data points in the distribution and blue ones 
 ![Plot](https://github.com/Akshat4112/speaker_embedding_generation_diffusion_models/blob/main/figures/TSNE-Based%202D%20Plot%20of%2064%20dimensional%20Embeddings.png)
 
 ## References
-[1] [Denoising Diffusion Probalistic Models](https://arxiv.org/pdf/2006.11239.pdf)
-[2] [Denoising Diffusion Implicit Models](https://arxiv.org/pdf/2010.02502.pdf)
-[3] [Diffusion Model Beats GANs on Image Synthesis](https://arxiv.org/pdf/2010.02502.pdf)
+[1] [Denoising Diffusion Probalistic Models](https://arxiv.org/pdf/2006.11239.pdf) <be />
+[2] [Denoising Diffusion Implicit Models](https://arxiv.org/pdf/2010.02502.pdf) <be />
+[3] [Diffusion Model Beats GANs on Image Synthesis](https://arxiv.org/pdf/2010.02502.pdf) <be />
 
 
 
